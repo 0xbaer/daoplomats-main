@@ -23,3 +23,18 @@ body {
     text-wrap: balance;
   }
 }
+
+::selection {
+  background-color: #dfe225;
+  color: #282828;
+}
+
+::-moz-selection {
+  background-color: #dfe225;
+  color: #282828;
+}
+
+::-webkit-selection {
+  background-color: #dfe225;
+  color: #282828;
+}

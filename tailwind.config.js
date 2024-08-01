@@ -17,6 +17,8 @@ module.exports = {
       colors: {
         primary: "#DFE225",
         secondary: "#FCFBEB",
+        autofill: "#333F3D",
+        autofillText: "#D3D3D3",
       },
 
       fontFamily: {
@@ -25,5 +27,20 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".autofill": {
+          "&:-webkit-autofill": {
+            "background-color": "#333F3D !important",
+            color: "#D3D3D3 !important",
+          },
+          "&:-webkit-autofill::first-line": {
+            color: "#D3D3D3 !important",
+          },
+        },
+      });
+    },
+  ],
 };

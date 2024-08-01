@@ -45,7 +45,7 @@ const Footer = () => {
   return (
     <footer className="py-16 px-8 space-y-32">
       <section className="flex justify-between items-start flex-col md:flex-row">
-        <div className="space-y-8">
+        <div className="space-y-16 md:space-y-8">
           <h2 className="font-philosopher text-5xl md:text-4xl xl:text-5xl max-w-lg font-bold text-primary">
             We Would Love To Hear From You
           </h2>
@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="flex items-start justify-between relative">
             <SocialLinks socials={socials} />
 
-            <div className="absolute border-l border-gray-300 h-full z-20 left-1/2"></div>
+            <div className="absolute border-l border-gray-300 h-full z-20 left-1/2 md:hidden block"></div>
 
             <FooterQuickLinks isMobile={true} />
           </div>
@@ -68,10 +68,9 @@ const Footer = () => {
         />
       </section>
 
-      <div className="flex justify-between items-center pt-12 border-t border-primary">
+      <div className="flex justify-between items-center pt-12 border-t border-primary font-urbanist">
         <p>
-          <span className="text-primary font-urbanist">DAOplomats </span>© 2024
-          - 2025
+          <span className="text-primary ">DAOplomats </span>© 2024 - 2025
         </p>
 
         <Link
