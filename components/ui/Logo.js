@@ -1,17 +1,21 @@
 import Image from "next/image";
 
-const Logo = () => {
+const Logo = ({
+  direction = "flex-row",
+  logoSize = "w-10 h-10 xl:w-11 xl:h-11",
+  size = "text-lg xl:text-xl space-x-1",
+}) => {
   return (
-    <div className="flex items-center justify-center gap-2.5">
+    <div className={`flex items-center justify-center gap-2.5 ${direction}`}>
       <Image
         src="/home/header/daoplomats-logo.svg"
         width={44}
         height={44}
         alt="logo"
-        className="w-10 h-10 xl:w-11 xl:h-11"
+        className={logoSize}
       />
 
-      <div className="text-lg xl:text-xl  space-x-1 font-philosopher">
+      <div className={`font-philosopher ${size}`}>
         <span className="text-primary">DAO</span>
         <span className="text-secondary">PLOMATS</span>
       </div>

@@ -6,6 +6,7 @@ import CenterContent from "./HeaderContent";
 const HomeHeader = () => {
   return (
     <header
+      id="header"
       className="flex flex-col relative py-7"
       style={{
         backgroundImage: "url('/home/header/bg-main.png')",
