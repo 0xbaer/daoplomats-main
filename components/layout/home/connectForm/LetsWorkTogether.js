@@ -2,20 +2,12 @@ import Input from "@/components/ui/input/Input";
 import LetsWorkHeading from "./LetsWorkHeading";
 import Textarea from "@/components/ui/input/Textarea";
 
-export default function LetsWor() {
+export default function LetsWorkTogether() {
   return (
-    <section
-      className="py-48 space-y-20"
-      style={{
-        backgroundImage: "url('/connectForm/form-bg.png')",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundColor: "#333F3D",
-      }}
-    >
+    <>
       <LetsWorkHeading />
 
-      <form className="w-10/12 max-w-4xl mx-auto space-y-6">
+      <form className="w-full sm:w-10/12 md:w-8/12 max-w-4xl sm:mx-auto space-y-6 px-8">
         <div className="flex gap-6 flex-col md:flex-row">
           <Input
             type="text"
@@ -58,6 +50,6 @@ export default function LetsWor() {
           Send Message
         </button>
       </form>
-    </section>
+    </>
   );
 }

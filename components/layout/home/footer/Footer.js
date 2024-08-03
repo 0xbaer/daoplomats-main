@@ -45,7 +45,7 @@ const Footer = () => {
   return (
     <footer className="py-16 px-8 space-y-32">
       <section className="flex justify-between items-start flex-col md:flex-row">
-        <div className="space-y-16 md:space-y-8">
+        <div className="space-y-20 md:space-y-8">
           <h2 className="font-philosopher text-5xl md:text-4xl xl:text-5xl max-w-lg font-bold text-primary">
             We Would Love To Hear From You
           </h2>
@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="flex items-start justify-between relative">
             <SocialLinks socials={socials} />
 
-            <div className="absolute border-l border-gray-300 h-full z-20 left-1/2 md:hidden block"></div>
+            <div className="absolute border-l border-gray-300 h-full z-20 left-1/2 md:hidden block sm:translate-x-10 "></div>
 
             <FooterQuickLinks isMobile={true} />
           </div>
@@ -62,7 +62,7 @@ const Footer = () => {
         <FooterQuickLinks />
 
         <Logo
-          direction="flex-row md:flex-col -order-1 md:order-2 mb-10 md:mb-0"
+          direction="flex-row md:flex-col -order-1 md:order-2 mb-14 md:mb-0"
           logoSize="w-16 h-16 lg:w-14 lg:h-14 xl:w-16 xl:h-16"
           size="text-2xl lg:text-lg xl:text-xl space-x-1"
         />

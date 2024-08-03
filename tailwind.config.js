@@ -17,6 +17,9 @@ module.exports = {
       colors: {
         primary: "#DFE225",
         secondary: "#FCFBEB",
+
+        dark: "#242424",
+
         autofill: "#333F3D",
         autofillText: "#D3D3D3",
       },
