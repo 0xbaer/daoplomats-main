@@ -29,12 +29,92 @@ const myFont = localFont({
 
 export const metadata = {
   title: "DAOplomats",
-  description: "Working to DAO it",
+  description:
+    "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
+
+  generator: "Next.js",
+  applicationName: "DAOplomats",
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "DAOplomats",
+    "DAO",
+    "Decentralized Autonomous Organization",
+    "Decentralized",
+    "Autonomous",
+    "Organization",
+    "Blockchain",
+    "Web3",
+    "Ethereum",
+  ],
+  authors: [{ name: "Gautam, Raj" }, { name: "Baer" }, { name: "Jenga Jojo" }],
+  creator: "Gautam Raj",
+  publisher: "Gautam Raj",
+
+  metadataBase: new URL("https://www.daoplomats.org"),
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+    },
+  },
+
+  openGraph: {
+    title: "DAOplomats",
+    description:
+      "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
+    url: "https://www.daoplomats.org",
+    siteName: "DAOplomats",
+    images: [
+      {
+        url: "https://www.yourwebsite.com/opengraph-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "DAOplomats Open Graph Image",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "DAOplomats",
+    description:
+      "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
+    image: "https://www.yourwebsite.com/twitter-image.jpg",
+  },
+
+  icons: {
+    icon: "/icons/icon.png",
+    appleTouchIcon: "/icons/apple-icon.png",
+  },
+
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#252525">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#252525"></meta> */}
+
       <body
         className={`${myFont.className} ${philosopher.variable} ${urbanist.variable}`}
       >
