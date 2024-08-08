@@ -24,6 +24,16 @@ body {
   }
 }
 
+::-webkit-scrollbar {
+  background: #414141;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dfe225;
+  border: 1px solid #000000;
+}
+
 ::selection {
   background-color: #dfe225;
   color: #282828;
@@ -37,4 +47,19 @@ body {
 ::-webkit-selection {
   background-color: #dfe225;
   color: #282828;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
