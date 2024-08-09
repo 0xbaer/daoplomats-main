@@ -1,12 +1,12 @@
 import HomeSections from "../HomeSections";
 import OurValues from "../values/OurValues";
-import HomeSectionHeading from "../HomeSectionSideHeading";
+import HomeSectionSideHeading from "../HomeSectionSideHeading";
 
 const About = () => {
   return (
     <div id="about">
       <HomeSections aria="values" bgImage="none" width="max-w-6xl">
-        <HomeSectionHeading
+        <HomeSectionSideHeading
           color="text-primary"
           label="about us"
           aria="About Us"

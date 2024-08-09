@@ -1,5 +1,6 @@
 import ServiceItem from "./ServiceItem";
-import HomeSectionHeading from "../HomeSectionSideHeading";
+import HomeSectionSideHeading from "../HomeSectionSideHeading";
+import HomeSectionsHeading from "../HomeSectionsHeading";
 
 const Services = () => {
   const services1 = [
@@ -39,7 +40,7 @@ const Services = () => {
       }}
     >
       <div className="w-fit py-28 sm:py-36 px-6 lg:px-8 xl:px-0 flex flex-col lg:flex-row justify-center gap-8 md:gap-12 lg:gap-24 relative mx-auto">
-        <HomeSectionHeading
+        <HomeSectionSideHeading
           color="text-black"
           label="services"
           aria="Services"
@@ -47,10 +48,9 @@ const Services = () => {
 
         <div className="w-full text-dark space-y-12 md:space-y-16">
           <div className="w-fit">
-            <h2 className="text-black text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-philosopher">
-              Let&apos;s work{" "}
-              <span className="text-black md:text-primary">together</span>
-            </h2>
+            <HomeSectionsHeading color="text-black">
+              Let&apos;s work <span className="text-primary">Together</span>
+            </HomeSectionsHeading>
 
             <hr className="border-dark w-1/2 mt-4 block md:hidden" />
           </div>

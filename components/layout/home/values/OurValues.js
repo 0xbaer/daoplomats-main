@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import ValuesList from "./ValuesList";
+import HomeSectionsHeading from "../HomeSectionsHeading";
 
 const values = [
   {
@@ -49,9 +50,9 @@ const OurValues = () => {
       </div>
 
       <div className="flex flex-col flex-[4] mb-12 lgmb-24 space-y-16">
-        <h3 className="text-white text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-philosopher">
+        <HomeSectionsHeading>
           Our <span className="text-primary">Values</span>
-        </h3>
+        </HomeSectionsHeading>
 
         <ValuesList values={values} />
       </div>
