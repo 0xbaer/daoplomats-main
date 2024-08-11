@@ -75,7 +75,7 @@ const TABLE_ROWS = [
 const FeedBody = () => {
   return (
     <section
-      className="w-full max-h-screen overflow-y-auto"
+      className="w-full max-h-screen overflow-y-auto md:show-scroll thin-scrollbar rounded-b-2xl show-scroll"
       aria-label="Feed Body"
     >
       {TABLE_ROWS.map(({ date, desc, logo, type }, index) => {

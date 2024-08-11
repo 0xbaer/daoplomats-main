@@ -34,6 +34,17 @@ body {
   border: 1px solid #000000;
 }
 
+.thin-scrollbar::-webkit-scrollbar {
+  background: #988355;
+  width: 3px;
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border: 0.5px solid #ffffff;
+  border-radius: 9999px;
+}
+
 ::selection {
   background-color: #dfe225;
   color: #282828;
@@ -53,6 +64,15 @@ body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.show-scroll::-webkit-scrollbar {
+  display: block;
+}
+
+.show-scroll {
+  -ms-overflow-style: auto;
+  scrollbar-width: auto;
 }
 
 .hide-scroll::-webkit-scrollbar {

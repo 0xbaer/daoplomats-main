@@ -21,8 +21,8 @@ export default function OurGovernanceFeed() {
         Feed
       </HomeSectionsHeading>
 
-      <div className="border-2 border-primary rounded-2xl max-w-7xl mx-auto">
-        <section className="w-full min-w-max text-left">
+      <div className="border-2 border-primary rounded-2xl max-w-7xl mx-4 md:mx-6 lg:mx-8 xl:mx-auto overflow-hidden relative">
+        <section className="w-full min-w-max text-left relative">
           <FeedHeading />
 
           <FeedBody />
