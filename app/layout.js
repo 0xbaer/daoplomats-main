@@ -4,6 +4,7 @@ import { Philosopher } from "next/font/google";
 import localFont from "next/font/local";
 
 import "./globals.css";
+import { MouseCursor } from "@/components/ui/customCursor/MouseCursor";
 
 const philosopher = Philosopher({
   subsets: ["latin"],
@@ -118,6 +119,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${myFont.className} ${philosopher.variable} ${urbanist.variable}`}
       >
+        <MouseCursor />
         {children}
       </body>
     </html>
