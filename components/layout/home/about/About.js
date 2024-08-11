@@ -1,7 +1,8 @@
+import { Suspense } from "react";
+
 import HomeSections from "../HomeSections";
 import OurValues from "../values/OurValues";
 import HomeSectionSideHeading from "../HomeSectionSideHeading";
-import { Suspense } from "react";
 
 const About = () => {
   return (

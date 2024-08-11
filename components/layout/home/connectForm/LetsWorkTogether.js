@@ -56,7 +56,7 @@ const LetsWorkTogether = () => {
         <button
           type="submit"
           aria-label="Send Message"
-          className="text-black bg-primary w-full uppercase font-bold rounded-full text-base px-5 py-2.5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary prevent-select border border-transparent hover:border-primary hover:bg-transparent hover:text-primary transition-colors"
+          className="btn-custom rounded-full text-black bg-primary w-full focus:ring-primary prevent-select border border-transparent hover:border-primary hover:bg-transparent hover:text-primary"
         >
           Send Message
         </button>

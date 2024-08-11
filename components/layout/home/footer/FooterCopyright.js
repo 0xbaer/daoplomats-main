@@ -6,7 +6,7 @@ const FooterCopyright = () => {
     <div className="flex justify-between items-center pt-12 border-t border-primary font-urbanist">
       <p>
         <span className="text-primary ">DAOplomats </span>© 2024{" "}
-        <span className="hidden xs:block">- 2025</span>
+        <span className="hidden xs:inline-block">- 2025</span>
       </p>
 
       <Link

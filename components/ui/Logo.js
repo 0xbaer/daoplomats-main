@@ -3,7 +3,7 @@ import Image from "next/image";
 const Logo = ({
   direction = "flex-row",
   logoSize = "w-10 h-10 xl:w-11 xl:h-11",
-  size = "text-lg xl:text-xl space-x-1",
+  size = "text-lg xl:text-xl space-x-0.5",
 }) => {
   return (
     <div className={`flex items-center justify-center gap-2.5 ${direction}`}>

@@ -67,7 +67,7 @@ const Footer = () => {
           <Logo
             direction="flex-row md:flex-col -order-1 md:order-2 mb-14 md:mb-0"
             logoSize="w-16 h-16 lg:w-14 lg:h-14 xl:w-16 xl:h-16"
-            size="text-2xl lg:text-lg xl:text-xl space-x-1"
+            size="text-2xl lg:text-lg xl:text-xl space-x-0.5"
           />
         </section>
 

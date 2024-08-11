@@ -1,10 +1,10 @@
 import Link from "next/link";
+import { Suspense } from "react";
 
 import FeedBody from "./FeedBody";
 import FeedHeading from "./FeedHeading";
 
 import HomeSectionsHeading from "../HomeSectionsHeading";
-import { Suspense } from "react";
 
 export default function OurGovernanceFeed() {
   return (
@@ -31,12 +31,19 @@ export default function OurGovernanceFeed() {
           </section>
         </div>
 
-        <div>
+        <div className="mx-8 space-y-6 md:space-x-4">
           <Link
             href="#"
-            className="rounded-full text-black text-lg bg-primary px-80 uppercase font-bold font-urbanist border border-transparent hover:border-primary hover:bg-transparent hover:text-primary transition-colors py-2.5"
+            className="btn-custom bg-primary text-black rounded-full hover:bg-white hover:text-black transition-colors shadow-sm shadow-primary py-2.5 block md:inline-block"
           >
             Delegate with us
+          </Link>
+
+          <Link
+            href="#"
+            className="btn-custom border border-white rounded-full hover:border-primary  hover:text-primary shadow-sm shadow-white transition-colors py-2.5 block md:inline-block"
+          >
+            View All Proposals
           </Link>
         </div>
       </div>

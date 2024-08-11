@@ -1,5 +1,5 @@
-import React, { Suspense } from "react";
 import Image from "next/image";
+import React, { Suspense } from "react";
 
 import HomeSectionsHeading from "../HomeSectionsHeading";
 
@@ -25,7 +25,7 @@ const DAOIt = () => {
           </HomeSectionsHeading>
         </div>
 
-        <div className="flex items-center justify-start my-8 overflow-hidden w-full">
+        <div className="flex items-center justify-start mt-16 overflow-hidden w-full">
           {images.map((image, index) => (
             <Image
               key={index}
