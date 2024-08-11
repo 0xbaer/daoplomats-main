@@ -26,7 +26,7 @@ const Navbar = () => {
             width={32}
             height={32}
             alt="X Logo"
-            className="w-7 h-7 xl:w-8 xl:h-8"
+            className="w-7 h-7 xl:w-8 xl:h-8 prevent-select"
           />
         </Link>
 

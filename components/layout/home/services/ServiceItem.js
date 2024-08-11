@@ -3,7 +3,13 @@ import Image from "next/image";
 const ServiceItem = ({ title, body, logo }) => {
   return (
     <li className="flex flex-col gap-8 text-[#242424] border-b border-dark pb-6 xl:pb-8 max-w-md w-full">
-      <Image src={logo} width={64} height={64} alt={`${title} logo`} />
+      <Image
+        src={logo}
+        width={64}
+        height={64}
+        alt={`${title} logo`}
+        className="prevent-select"
+      />
 
       <p className="text-[16px] font-medium lg:11/12 xl:w-10/12 font-urbanist">
         {body}

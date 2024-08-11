@@ -11,7 +11,7 @@ const NavAnchorButton = React.forwardRef(({ onClick, href, label }, ref) => {
       href={href}
       onClick={onClick}
       ref={ref}
-      className="rounded-full px-3 py-1.5 2xl:px-4 2xl:py-1.5 border text-sm uppercase shadow shadow-white/40"
+      className="rounded-full px-3 py-1.5 2xl:px-4 2xl:py-1.5 border text-sm uppercase shadow shadow-white/40 prevent-select"
       style={{
         borderColor: label === "home" ? "transparent" : "#dfe225",
         backgroundColor: label === "home" ? "#dfe225" : "transparent",

@@ -4,7 +4,7 @@ import HomeSectionsHeading from "../HomeSectionsHeading";
 const LetsWorkHeading = () => {
   return (
     <div className="space-y-4 text-center">
-      <HomeSectionsHeading classNames="text-center">
+      <HomeSectionsHeading id="contact-heading" classNames="text-center">
         Let&apos;s work <span className="text-primary">Together</span>
       </HomeSectionsHeading>
 

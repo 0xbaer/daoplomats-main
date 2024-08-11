@@ -1,21 +1,29 @@
+import React from "react";
+
 import Link from "next/link";
 import Image from "next/image";
-import React from "react";
+
+import formatDate from "@/components/utils/FormatDate";
 
 const FeedBodyRow = ({ date, desc, logo, type, classes }) => {
   return (
-    <div className={`flex py-4 ${classes}`}>
-      <div className="w-28 mx-8 flex items-center">
-        <p className="font-normal text-base">{date}</p>
+    <article className={`flex py-4 ${classes}`} role="row">
+      <div className="w-28 mx-8 flex items-center" role="cell">
+        <time
+          className="font-normal text-base"
+          dateTime={new Date(parseInt(date * 1000)).toISOString()}
+        >
+          {formatDate(parseInt(date))}
+        </time>
       </div>
 
-      <div className="flex-1 mx-8 flex items-center">
+      <div className="flex-1 mx-8 flex items-center" role="cell">
         <p className="font-normal text-base whitespace-normal truncate text-wrap break-words max-w-lg">
           {desc}
         </p>
       </div>
 
-      <div className="w-32 px-8 flex items-center">
+      <div className="w-32 px-8 flex items-center prevent-select" role="cell">
         <Image
           src={`/home/dao-it/icons/${logo}`}
           width={40}
@@ -25,21 +33,21 @@ const FeedBodyRow = ({ date, desc, logo, type, classes }) => {
         />
       </div>
 
-      <div className="w-28 mx-8 flex items-center">
-        <Link href="#" className="font-medium text-base text-white">
-          {type}
-        </Link>
+      <div className="w-28 mx-8 flex items-center" role="cell">
+        {type}
       </div>
 
-      <Link href="#" className="w-32 px-8 flex items-center">
-        <Image
-          src="/home/dao-it/visit.svg"
-          width={28}
-          height={28}
-          alt="visit"
-        />
-      </Link>
-    </div>
+      <div className="w-32 px-8 flex items-center prevent-select" role="cell">
+        <Link href="#">
+          <Image
+            src="/home/dao-it/visit.svg"
+            width={28}
+            height={28}
+            alt="visit"
+          />
+        </Link>
+      </div>
+    </article>
   );
 };
 

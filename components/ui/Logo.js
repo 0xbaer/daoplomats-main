@@ -12,7 +12,7 @@ const Logo = ({
         width={44}
         height={44}
         alt="logo"
-        className={logoSize}
+        className={logoSize + " prevent-select"}
       />
 
       <div className={`font-philosopher ${size}`}>

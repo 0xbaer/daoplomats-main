@@ -8,7 +8,7 @@ const DelegateButton = () => {
       target="_blank"
       referrerPolicy="no-referrer"
       aria-label="Visit DAOplomats Boardroom"
-      className="flex items-center gap-2 px-6 py-2.5 rounded-full border-secondary border font-bold tracking-widest uppercase text-secondary text-sm"
+      className="flex items-center gap-2 px-6 py-2.5 rounded-full border-secondary border font-bold tracking-widest uppercase text-secondary text-sm prevent-select"
     >
       Delegate
       <div className="w-5 h-5">

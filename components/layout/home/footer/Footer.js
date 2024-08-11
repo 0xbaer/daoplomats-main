@@ -25,7 +25,7 @@ const SocialLinks = ({ socials }) => (
     {socials.map((social) => (
       <li
         key={social.name}
-        className="rounded-full px-3 py-1.5 2xl:px-4 text-sm shadow shadow-white/40 bg-transparent border border-white text-white hover:scale-105 active:scale-100 transition-all hover:border-primary hover:text-primary cursor-pointer"
+        className="rounded-full px-3 py-1.5 2xl:px-4 text-sm shadow shadow-white/40 bg-transparent border border-white text-white hover:scale-105 active:scale-100 transition-all hover:border-primary hover:text-primary cursor-pointer prevent-select"
       >
         <Link
           className=" capitalize"
@@ -74,7 +74,7 @@ const Footer = () => {
         </p>
 
         <Link
-          className="rounded-full px-3 py-1.5 2xl:px-4 2xl:py-1.5 text-sm shadow shadow-white/40 bg-transparent border border-primary text-primary hover:scale-105 active:scale-100 transition-all hover:border-white hover:text-white capitalize"
+          className="rounded-full px-3 py-1.5 2xl:px-4 2xl:py-1.5 text-sm shadow shadow-white/40 bg-transparent border border-primary text-primary hover:scale-105 active:scale-100 transition-all hover:border-white hover:text-white capitalize prevent-select"
           href="/"
           aria-label="Back to top"
         >

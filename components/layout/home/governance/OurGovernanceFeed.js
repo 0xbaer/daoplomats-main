@@ -1,6 +1,9 @@
-import HomeSectionsHeading from "../HomeSectionsHeading";
-import FeedHeading from "./FeedHeading";
+import Link from "next/link";
+
 import FeedBody from "./FeedBody";
+import FeedHeading from "./FeedHeading";
+
+import HomeSectionsHeading from "../HomeSectionsHeading";
 
 export default function OurGovernanceFeed() {
   return (
@@ -26,9 +29,14 @@ export default function OurGovernanceFeed() {
         </section>
       </div>
 
-      {/* <Button className="z-10 rounded-full text-black px-[300px] text-[18px] bg-[#DFE225]">
-        Delegate with us
-      </Button> */}
+      <div>
+        <Link
+          href="#"
+          className="rounded-full text-black text-lg bg-primary px-80 uppercase font-bold font-urbanist border border-transparent hover:border-primary hover:bg-transparent hover:text-primary transition-colors py-2.5"
+        >
+          Delegate with us
+        </Link>
+      </div>
     </div>
   );
 }

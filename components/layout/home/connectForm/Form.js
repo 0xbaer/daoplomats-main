@@ -1,5 +1,4 @@
 import React from "react";
-
 import LetsWorkTogether from "./LetsWorkTogether";
 
 const Form = () => {
@@ -13,6 +12,7 @@ const Form = () => {
         backgroundSize: "cover",
         backgroundColor: "#333F3D",
       }}
+      aria-labelledby="contact-heading"
     >
       <LetsWorkTogether />
     </section>

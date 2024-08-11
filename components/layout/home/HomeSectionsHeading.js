@@ -4,13 +4,15 @@ const HomeSectionsHeading = ({
   children,
   color = "text-white",
   classNames,
+  id,
 }) => {
   return (
-    <h3
+    <h2
+      id={id}
       className={`text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-philosopher capitalize ${color} ${classNames}`}
     >
       {children}
-    </h3>
+    </h2>
   );
 };
 
