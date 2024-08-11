@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Image from "next/image";
 
 import HomeSectionsHeading from "../HomeSectionsHeading";
@@ -13,27 +13,32 @@ const DAOIt = () => {
   ];
 
   return (
-    <section className="mt-40 overflow-hidden" aria-labelledby="dao-it-heading">
-      <div className="mx-8">
-        <HomeSectionsHeading color="text-white" id="dao-it-heading">
-          Working to <span className="text-primary uppercase">DAO </span>
-          <span className="text-primary">it</span>
-        </HomeSectionsHeading>
-      </div>
+    <Suspense>
+      <section
+        className="mt-40 overflow-hidden"
+        aria-labelledby="dao-it-heading"
+      >
+        <div className="mx-8">
+          <HomeSectionsHeading color="text-white" id="dao-it-heading">
+            Working to <span className="text-primary uppercase">DAO </span>
+            <span className="text-primary">it</span>
+          </HomeSectionsHeading>
+        </div>
 
-      <div className="flex items-center justify-start my-8 overflow-hidden w-full">
-        {images.map((image, index) => (
-          <Image
-            key={index}
-            src={`/home/dao-it/${image.src}`}
-            alt={image.alt}
-            width={384}
-            height={384}
-            className="prevent-select"
-          />
-        ))}
-      </div>
-    </section>
+        <div className="flex items-center justify-start my-8 overflow-hidden w-full">
+          {images.map((image, index) => (
+            <Image
+              key={index}
+              src={`/home/dao-it/${image.src}`}
+              alt={image.alt}
+              width={384}
+              height={384}
+              className="prevent-select"
+            />
+          ))}
+        </div>
+      </section>
+    </Suspense>
   );
 };
 
