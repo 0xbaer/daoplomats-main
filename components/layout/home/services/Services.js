@@ -5,12 +5,12 @@ import HomeSectionsHeading from "../HomeSectionsHeading";
 const Services = () => {
   const services1 = [
     {
-      logo: "/services/dao-tooling.svg",
+      logo: "/home/services/dao-tooling.svg",
       title: "DAO Tooling",
       body: "Tailored tools for a smoother decentralized experience. We keep it simple, avoiding unnecessary complexity to ensure your DAO runs effortlessly.",
     },
     {
-      logo: "/services/tresury-manager.svg",
+      logo: "/home/services/tresury-manager.svg",
       title: "Treasury Manager",
       body: "Navigate Web3 confidently with our Treasury Management and Governance expertise, from optimizing DAO tooling to crafting governance models.",
     },
@@ -18,12 +18,12 @@ const Services = () => {
 
   const services2 = [
     {
-      logo: "/services/governance-model-design.svg",
+      logo: "/home/services/governance-model-design.svg",
       title: "Governance Model Design",
       body: "Craft a solid governance plan with our research-backed models. We provide clear documentation and follow up to ensure it's seamlessly integrated for effective decision-making.",
     },
     {
-      logo: "/services/token-and-education.png",
+      logo: "/home/services/token-and-education.png",
       title: "Tokenomics and Education",
       body: "Design a sustainable token model for your governance tokens and ensure its adoption with our curated education and tokenomics programs. We blend insights from both web2 and web3 governance, providing a comprehensive perspective.",
     },
@@ -34,7 +34,7 @@ const Services = () => {
       aria-labelledby="services-section"
       className="w-full"
       style={{
-        backgroundImage: "url('/services/service-bg.png')",
+        backgroundImage: "url('/home/services/service-bg.png')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}

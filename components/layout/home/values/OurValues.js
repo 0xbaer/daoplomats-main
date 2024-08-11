@@ -38,7 +38,7 @@ const OurValues = () => {
     <div className="flex md:flex-row flex-col gap-12 lg:gap-16">
       <div className="md:flex-[2] h-80 md:h-auto relative">
         <Image
-          src="/values/values-side-image.jpeg"
+          src="/home/values/values-side-image.jpeg"
           fill
           className="mix-blend-luminosity md:w-auto w-full prevent-select"
           alt="Our Values"
