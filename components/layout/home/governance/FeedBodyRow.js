@@ -17,7 +17,7 @@ const FeedBodyRow = ({ date, desc, logo, type, classes }) => {
 
       <div className="w-32 px-8 flex items-center">
         <Image
-          src={`/images/section_11/${logo}.svg`}
+          src={`/home/dao-it/icons/${logo}`}
           width={40}
           height={40}
           className="rounded-full"
