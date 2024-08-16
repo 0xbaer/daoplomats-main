@@ -23,6 +23,7 @@ module.exports = {
         secondary: "#FCFBEB",
 
         dark: "#242424",
+        "dark-secondary": "#333333",
 
         autofill: "#333F3D",
         autofillText: "#D3D3D3",

@@ -5,6 +5,7 @@ import Form from "@/components/layout/home/connectForm/Form";
 import HomeHeader from "@/components/layout/home/header/Header";
 import Services from "@/components/layout/home/services/Services";
 import OurGovernanceFeed from "@/components/layout/home/governance/OurGovernanceFeed";
+import Testimonials from "@/components/layout/home/testimonial/Testimonials";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <About />
         <OurGovernanceFeed />
         <Services />
+        <Testimonials />
         <Form />
       </main>
       <Footer />
