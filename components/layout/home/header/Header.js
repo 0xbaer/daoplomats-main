@@ -24,6 +24,7 @@ const HomeHeader = () => {
         src="/home/header/bg-o.png"
         height={600}
         width={372}
+        priority={true}
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 mix-blend-color-dodge w-3/4 md:w-72 lg:w-72 xl:w-80 2xl:w-96 h-auto prevent-select"
         alt=""
       />
