@@ -41,13 +41,9 @@ const TestimonialItem = ({ src, quote, name, company }) => {
           /> */}
 
           <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-            <h3 className="pr-3 font-medium text-gray-900 dark:text-white">
-              {name}
-            </h3>
+            <h3 className="pr-3 font-medium text-white">{name}</h3>
 
-            <h4 className="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">
-              {company}
-            </h4>
+            <h4 className="pl-3 text-sm font-light text-gray-300">{company}</h4>
           </div>
         </div>
       </motion.div>

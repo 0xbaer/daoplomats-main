@@ -42,7 +42,7 @@ const ServicesList = () => {
         ))}
       </ul>
 
-      <div className="space-y-12 md:space-y-20 md:mt-20">
+      <ul className="space-y-12 md:space-y-20 md:mt-20">
         {services2.map((service, index) => (
           <ServiceItem
             key={index}
@@ -51,7 +51,7 @@ const ServicesList = () => {
             body={service.body}
           />
         ))}
-      </div>
+      </ul>
     </div>
   );
 };

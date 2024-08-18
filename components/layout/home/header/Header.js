@@ -14,6 +14,7 @@ const HomeHeader = () => {
         sizes="100vw"
         className="absolute top-0 left-0 z-0"
         alt=""
+        priority={true}
       />
 
       <Navbar />
