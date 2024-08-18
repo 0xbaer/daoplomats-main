@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Suspense } from "react";
 
 import FeedBody from "./FeedBody";
@@ -9,15 +10,15 @@ import HomeSectionsHeading from "../HomeSectionsHeading";
 export default function OurGovernanceFeed() {
   return (
     <Suspense>
-      <div
-        className="py-28 mx-auto text-center space-y-16"
-        style={{
-          backgroundImage: "url('/home/connectForm/form-bg.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundColor: "#333F3D",
-        }}
-      >
+      <div className="py-28 mx-auto text-center space-y-16 relative">
+        <Image
+          src="/home/connectForm/form-bg.png"
+          layout="fill"
+          sizes="100vw"
+          className="absolute top-0 left-0 z-0"
+          alt=""
+        />
+
         <HomeSectionsHeading color="text-white">
           Our <span className="text-primary">Governance </span>
           Feed

@@ -1,4 +1,5 @@
 import React from "react";
+
 import FooterLinksItem from "./FooterLinksItem";
 
 const FooterLinksList = [

@@ -1,8 +1,10 @@
 import Link from "next/link";
+import { Suspense } from "react";
+
 import Logo from "@/components/ui/Logo";
+
 import FooterQuickLinks from "./FooterQuickLinks";
 import FooterCopyright from "./FooterCopyright";
-import { Suspense } from "react";
 
 const socials = [
   {

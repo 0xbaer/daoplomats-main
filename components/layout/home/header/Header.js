@@ -7,15 +7,15 @@ import "./Header.css";
 
 const HomeHeader = () => {
   return (
-    <header
-      id="header"
-      className="flex flex-col relative py-7"
-      style={{
-        backgroundImage: "url('/home/header/bg-main.png')",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-    >
+    <header id="header" className="flex flex-col relative py-7">
+      <Image
+        src="/home/header/bg-main.png"
+        layout="fill"
+        sizes="100vw"
+        className="absolute top-0 left-0 z-0"
+        alt=""
+      />
+
       <Navbar />
 
       <CenterContent />

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import HeaderHeading from "./HeaderHeading";
 
 import DelegateButton from "@/components/ui/buttons/DelegateButton";

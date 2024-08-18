@@ -8,7 +8,7 @@ const About = () => {
   return (
     <Suspense>
       <div id="about">
-        <HomeSections aria="values" bgImage="/none" width="max-w-6xl">
+        <HomeSections aria="values" width="max-w-6xl">
           <HomeSectionSideHeading
             color="text-primary"
             label="about us"

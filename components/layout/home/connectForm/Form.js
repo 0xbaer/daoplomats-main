@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React, { Suspense } from "react";
+
 import LetsWorkTogether from "./LetsWorkTogether";
 
 const Form = () => {
@@ -6,15 +8,17 @@ const Form = () => {
     <Suspense>
       <section
         id="contact"
-        className="py-28 md:py-32 lg:py-40 xl:py-48 space-y-20"
-        style={{
-          backgroundImage: "url('/home/connectForm/form-bg.png')",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          backgroundColor: "#333F3D",
-        }}
+        className="relative"
         aria-labelledby="contact-heading"
       >
+        <Image
+          src="/home/header/bg-main.png"
+          layout="fill"
+          sizes="100vw"
+          className="absolute top-0 left-0 z-0"
+          alt=""
+        />
+
         <LetsWorkTogether />
       </section>
     </Suspense>

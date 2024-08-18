@@ -4,6 +4,33 @@ import Image from "next/image";
 import TestimonialList from "./TestimonialList";
 import HomeSectionsHeading from "../HomeSectionsHeading";
 
+const TestimonialsData = [
+  {
+    id: 1,
+    src: "path/to/image1.jpg",
+    quote:
+      "DAOplomats have been outstanding delegates within the 1inch DAO. We have continued to be impressed by their outstanding professionalism and their unwavering commitment to their core values. Their proactive engagement and collaborative spirit make them an excellent addition to any protocol seeking to enhance its governance framework and decentralization efforts with confidence and expertise.",
+    name: "Jordan",
+    company: "1inch",
+  },
+  {
+    id: 2,
+    src: "path/to/image2.jpg",
+    quote:
+      "DAOplomats have been outstanding delegates within the 1inch DAO. We have continued to be impressed by their outstanding professionalism and their unwavering commitment to their core values. Their proactive engagement and collaborative spirit make them an excellent addition to any protocol seeking to enhance its governance framework and decentralization efforts with confidence and expertise.",
+    name: "Alex",
+    company: "Uniswap",
+  },
+  {
+    id: 3,
+    src: "path/to/image2.jpg",
+    quote:
+      "DAOplomats have been outstanding delegates within the 1inch DAO. We have continued to be impressed by their outstanding professionalism and their unwavering commitment to their core values. Their proactive engagement and collaborative spirit make them an excellent addition to any protocol seeking to enhance its governance framework and decentralization efforts with confidence and expertise.",
+    name: "Alex",
+    company: "Uniswap",
+  },
+];
+
 const Testimonials = () => {
   return (
     <div className="w-full flex flex-col jusitfy-center items-center py-40 xl:py-52 px-2.5 lg:px-14 relative bg-dark">
@@ -25,7 +52,7 @@ const Testimonials = () => {
           Said
         </HomeSectionsHeading>
 
-        <TestimonialList />
+        <TestimonialList testimonials={TestimonialsData} />
       </div>
     </div>
   );

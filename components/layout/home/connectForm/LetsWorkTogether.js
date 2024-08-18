@@ -5,7 +5,7 @@ import Textarea from "@/components/ui/input/Textarea";
 
 const LetsWorkTogether = () => {
   return (
-    <>
+    <div className="relative z-10 py-28 md:py-32 lg:py-40 xl:py-48 space-y-20 ">
       <LetsWorkHeading />
 
       <form
@@ -23,6 +23,7 @@ const LetsWorkTogether = () => {
               required
             />
           </div>
+
           <div className="flex-1">
             <Input
               type="email"
@@ -61,7 +62,7 @@ const LetsWorkTogether = () => {
           Send Message
         </button>
       </form>
-    </>
+    </div>
   );
 };
 
