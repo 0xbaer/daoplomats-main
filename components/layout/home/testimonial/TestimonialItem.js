@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const TestimonialItem = ({ src, quote, name, company }) => {
   return (
-    <article className="bg-dark-secondary w-11/12 md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl mx-auto px-4 text-center py-10 lg:py-16 xl:py-20 2xl:py-24 lg:px-6 h-full overflow-hidden">
+    <article className="bg-dark-secondary w-11/12 md:max-w-2xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl mx-auto text-center py-12 lg:py-16 xl:py-20 2xl:py-24 px-12 md:px-8 lg:px-6 h-full overflow-hidden">
       <motion.div
         className="max-w-screen-md mx-auto h-full flex flex-col justify-between"
         initial={{ opacity: 0, x: 100 }}
@@ -33,13 +33,13 @@ const TestimonialItem = ({ src, quote, name, company }) => {
         </div>
 
         <div className="flex items-center justify-center mt-6 space-x-3">
-          <Image
+          {/* <Image
             width={24}
             height={24}
             className="rounded-full"
             src={`/home/testimonial/${src}`}
             alt="profile picture"
-          />
+          /> */}
 
           <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
             <h3 className="pr-3 font-medium text-gray-900 dark:text-white">

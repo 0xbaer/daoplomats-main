@@ -6,12 +6,14 @@ import HomeHeader from "@/components/layout/home/header/Header";
 import Services from "@/components/layout/home/services/Services";
 import OurGovernanceFeed from "@/components/layout/home/governance/OurGovernanceFeed";
 import Testimonials from "@/components/layout/home/testimonial/Testimonials";
+import Decentralization from "@/components/layout/home/decentralization/Decentralization";
 
 export default function Home() {
   return (
     <>
       <HomeHeader />
       <main>
+        <Decentralization />
         <DAOIt />
         <About />
         <OurGovernanceFeed />

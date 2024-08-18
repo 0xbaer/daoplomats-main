@@ -6,7 +6,7 @@ import HomeSectionsHeading from "../HomeSectionsHeading";
 
 const Testimonials = () => {
   return (
-    <div className="w-full flex flex-col jusitfy-center items-center py-40 xl:py-52 px-2.5 md:px-14 relative bg-dark">
+    <div className="w-full flex flex-col jusitfy-center items-center py-40 xl:py-52 px-2.5 lg:px-14 relative bg-dark">
       <Image
         src="/home/testimonial/testimonial-bg.png"
         width={1800}

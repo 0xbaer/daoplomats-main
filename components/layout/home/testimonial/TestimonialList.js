@@ -68,30 +68,32 @@ const TestimonialList = () => {
         />
       </AnimatePresence>
 
-      <div className="absolute top-1/2 left-0 xl:left-2 transform -translate-y-1/2">
+      <div className="absolute top-1/2 left-1 xl:left-2 transform -translate-y-1/2">
         <button
           onClick={handlePrev}
-          className="btn-custom prevent-select border border-transparent hover:border-primary hover:bg-transparent hover:text-white px-2 py-2 p-2 bg-primary rounded-full"
+          className="btn-custom prevent-select border border-transparent hover:border-white hover:bg-white hover:text-white p-2 bg-primary rounded-full"
         >
           <Image
             src="/arrow-left.svg"
             width={24}
             height={24}
             alt="left arrow"
+            className="w-5 lg:w-6 h-5 lg:h-6"
           />
         </button>
       </div>
 
-      <div className="absolute top-1/2 right-0 xl:right-2 transform -translate-y-1/2">
+      <div className="absolute top-1/2 right-1 xl:right-2 transform -translate-y-1/2">
         <button
           onClick={handleNext}
-          className="btn-custom prevent-select border border-transparent hover:border-primary hover:bg-transparent hover:text-white p-2 bg-primary rounded-full"
+          className="btn-custom prevent-select border border-transparent hover:border-white hover:bg-white hover:text-white p-2 bg-primary rounded-full"
         >
           <Image
             src="/arrow-right.svg"
             width={24}
             height={24}
             alt="left arrow"
+            className="w-5 lg:w-6 h-5 lg:h-6"
           />
         </button>
       </div>
@@ -100,7 +102,7 @@ const TestimonialList = () => {
         {Testimonials.map((_, index) => (
           <div
             key={index}
-            className={`w-4 h-4 rounded-full cursor-pointer ${
+            className={`w-4 h-4 rounded-full hover:bg-white hover:scale-90 active:scale-100 cursor-pointer ${
               index === currentIndex ? "bg-primary" : "bg-gray-300"
             }`}
             onClick={() => setCurrentIndex(index)}
