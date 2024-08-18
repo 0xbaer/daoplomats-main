@@ -11,7 +11,6 @@ const HomeHeader = () => {
       <Image
         src="/home/header/bg-main.png"
         layout="fill"
-        sizes="100vw"
         className="absolute top-0 left-0 z-0"
         alt=""
         priority={true}

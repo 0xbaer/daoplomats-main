@@ -17,7 +17,6 @@ const Services = () => {
         <Image
           src="/home/services/service-bg.png"
           layout="fill"
-          sizes="100vw"
           className="absolute top-0 left-0 z-0"
           alt=""
         />

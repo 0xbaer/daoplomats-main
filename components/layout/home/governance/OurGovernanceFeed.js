@@ -14,7 +14,6 @@ export default function OurGovernanceFeed() {
         <Image
           src="/home/connectForm/form-bg.png"
           layout="fill"
-          sizes="100vw"
           className="absolute top-0 left-0 z-0"
           alt=""
         />
@@ -25,7 +24,7 @@ export default function OurGovernanceFeed() {
         </HomeSectionsHeading>
 
         <div className="border-2 border-primary rounded-2xl max-w-7xl mx-4 md:mx-6 lg:mx-8 xl:mx-auto overflow-hidden relative">
-          <section className="w-full min-w-max text-left relative" role="table">
+          <section className="w-full min-w-max text-left relative">
             <FeedHeading />
 
             <FeedBody />

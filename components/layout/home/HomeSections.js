@@ -8,7 +8,6 @@ const HomeSections = ({ aria, bgImage, width, children }) => {
         <Image
           src={bgImage}
           layout="fill"
-          sizes="100vw"
           className="absolute top-0 left-0 z-0"
           alt=""
         />
