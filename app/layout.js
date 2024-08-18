@@ -109,7 +109,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${myFont.className} ${philosopher.variable} ${urbanist.variable}`}
+        className={`${myFont.className} ${philosopher.variable} ${urbanist.variable} antialiased`}
       >
         <MouseCursor />
         {children}

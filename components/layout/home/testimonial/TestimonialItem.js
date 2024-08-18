@@ -25,7 +25,7 @@ const TestimonialItem = ({ src, quote, name, company }) => {
           </svg>
 
           <blockquote>
-            <p className="text-lg font-urbanist text-gray-900 md:text-xl dark:text-white">
+            <p className="text-lg font-urbanist md:text-xl text-white">
               &quot;{quote}&quot;
             </p>
           </blockquote>
@@ -40,7 +40,7 @@ const TestimonialItem = ({ src, quote, name, company }) => {
             alt="profile picture"
           /> */}
 
-          <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+          <div className="flex items-center divide-x-2 divide-gray-500">
             <h3 className="pr-3 font-medium text-white">{name}</h3>
 
             <h4 className="pl-3 text-sm font-light text-gray-300">{company}</h4>

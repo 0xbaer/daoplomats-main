@@ -5,6 +5,7 @@ export default function robots() {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://www.daoplomats.org/sitemap.xml",
+
+    sitemap: "https://daoplomats-main-five.vercel.app/sitemap.xml",
   };
 }

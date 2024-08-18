@@ -19,6 +19,10 @@ const Services = () => {
           layout="fill"
           className="absolute top-0 left-0 z-0"
           alt=""
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
         />
 
         <div className="w-fit py-28 sm:py-36 px-6 lg:px-8 xl:px-0 flex flex-col lg:flex-row justify-center gap-8 md:gap-12 lg:gap-24 relative mx-auto">

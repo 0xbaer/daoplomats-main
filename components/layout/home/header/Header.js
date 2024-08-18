@@ -13,6 +13,10 @@ const HomeHeader = () => {
         layout="fill"
         className="absolute top-0 left-0 z-0"
         alt=""
+        style={{
+          objectFit: "cover",
+          objectPosition: "center",
+        }}
         priority={true}
       />
 

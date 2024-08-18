@@ -16,6 +16,10 @@ export default function OurGovernanceFeed() {
           layout="fill"
           className="absolute top-0 left-0 z-0"
           alt=""
+          style={{
+            objectFit: "cover",
+            objectPosition: "center",
+          }}
         />
 
         <HomeSectionsHeading color="text-white">
