@@ -3,7 +3,7 @@ import React from "react";
 
 const VotingHistory = () => {
   return (
-    <div className="relative z-10 space-y-12 lg:space-y-14">
+    <div className="relative z-10 space-y-12 lg:space-y-16">
       <p className="text-primary text-4xl font-philosopher">
         Our voting history
       </p>

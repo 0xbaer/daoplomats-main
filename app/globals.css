@@ -108,3 +108,48 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* @keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(calc(0%));
+  }
+}
+
+@keyframes moveRightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 948px) {
+  .animate-move-left-to-right {
+    animation: moveLeftToRight 10s linear infinite alternate;
+  }
+}
+
+@media (max-width: 948px) {
+  .animate-move-right-to-left {
+    animation: moveRightToLeft 10s linear infinite alternate;
+  }
+} */
+
+@keyframes partner {
+  0% {
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
+}
+
+@media (max-width: 560px) {
+  .partner-animate {
+    animation: partner 20s linear infinite alternate;
+  }
+}
