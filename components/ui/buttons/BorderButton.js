@@ -1,16 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const DelegateButton = () => {
+const BorderButton = ({ href, label }) => {
   return (
     <Link
-      href="https://boardroom.io/voter/daoplomats.eth"
+      href={href}
       target="_blank"
       referrerPolicy="no-referrer"
       aria-label="Visit DAOplomats Boardroom"
-      className="flex items-center gap-2 rounded-full border-secondary border text-secondary text-sm prevent-select btn-custom"
+      className="flex items-center gap-2 rounded-full border-secondary border text-secondary text-sm prevent-select btn-custom w-fit"
     >
-      Delegate
+      {label}
       <div className="w-5 h-5">
         <Image
           src="/arrow-up-right.svg"
@@ -24,4 +24,4 @@ const DelegateButton = () => {
   );
 };
 
-export default DelegateButton;
+export default BorderButton;

@@ -1,6 +1,6 @@
 import HeaderHeading from "./HeaderHeading";
 
-import DelegateButton from "@/components/ui/buttons/DelegateButton";
+import BorderButton from "@/components/ui/buttons/BorderButton";
 
 export default function CenterContent() {
   return (
@@ -16,7 +16,10 @@ export default function CenterContent() {
             accountability.
           </p>
 
-          <DelegateButton />
+          <BorderButton
+            href="https://boardroom.io/voter/daoplomats.eth"
+            label="Delegate"
+          />
         </div>
       </div>
     </div>
