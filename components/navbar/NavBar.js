@@ -8,7 +8,7 @@ import NavItem from "./NavItem";
 
 const Navbar = () => {
   return (
-    <div className="w-full flex items-center justify-between relative px-6 xl:px-12">
+    <div className="w-full flex items-center justify-between relative z-10 px-6 xl:px-12">
       <Logo />
 
       <NavList />

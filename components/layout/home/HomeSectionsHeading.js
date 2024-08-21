@@ -9,7 +9,7 @@ const HomeSectionsHeading = ({
   return (
     <h2
       id={id}
-      className={`text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-philosopher capitalize ${color} ${classNames}`}
+      className={`text-6xl sm:text-7xl md:text-8xl xl:text-9xl font-philosopher capitalize relative z-10 ${color} ${classNames}`}
     >
       {children}
     </h2>

@@ -29,7 +29,7 @@ const HomeHeader = () => {
         height={600}
         width={372}
         priority={true}
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 mix-blend-color-dodge w-3/4 md:w-72 lg:w-72 xl:w-80 2xl:w-96 h-auto prevent-select"
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 mix-blend-color-dodge w-3/4 md:w-72 lg:w-72 xl:w-80 2xl:w-96 h-auto prevent-select"
         alt=""
       />
 
@@ -38,12 +38,12 @@ const HomeHeader = () => {
           src="/home/header/bg-l.png"
           height={223}
           width={422}
-          className="animate-move hidden md:block z-0 md:w-64 lg:w-72 xl:w-80 2xl:w-96 h-auto"
+          className="animate-move hidden md:block z-10 md:w-64 lg:w-72 xl:w-80 2xl:w-96 h-auto"
           alt=""
         />
       </div>
 
-      <div className="absolute top-3/4 -translate-y-1/4 lg:-translate-y-3/4 right-0 z-0 prevent-select">
+      <div className="absolute top-3/4 -translate-y-1/4 lg:-translate-y-3/4 right-0 z-10 prevent-select">
         <Image
           src="/home/header/bg-r.png"
           height={223}

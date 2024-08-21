@@ -27,7 +27,7 @@ export default function OurGovernanceFeed() {
           Feed
         </HomeSectionsHeading>
 
-        <div className="border-2 border-primary rounded-2xl max-w-7xl mx-4 md:mx-6 lg:mx-8 xl:mx-auto overflow-hidden relative">
+        <div className="border-2 border-primary rounded-2xl max-w-7xl mx-4 md:mx-6 lg:mx-8 xl:mx-auto overflow-hidden relative z-10">
           <section className="w-full min-w-max text-left relative">
             <FeedHeading />
 
@@ -35,7 +35,7 @@ export default function OurGovernanceFeed() {
           </section>
         </div>
 
-        <div className="mx-8 space-y-6 md:space-x-4">
+        <div className="mx-8 space-y-6 md:space-x-4 relative z-10">
           <Link
             href="#"
             className="btn-custom bg-primary text-black rounded-full hover:bg-white hover:text-black transition-colors shadow-sm shadow-primary py-2.5 block md:inline-block"

@@ -4,7 +4,7 @@ import DelegateButton from "@/components/ui/buttons/DelegateButton";
 
 export default function CenterContent() {
   return (
-    <div className="relative mx-auto w-fit my-32 md:my-52 lg:my-40 xl:my-48 z-10">
+    <div className="relative mx-auto w-fit my-32 md:my-52 lg:my-40 xl:my-48 z-20">
       <div className="flex flex-col items-start space-y-24 lg:space-y-20">
         <HeaderHeading />
 
