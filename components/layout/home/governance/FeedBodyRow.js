@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import FormatDateComponent from "@/components/utils/FormatDate";
 
-const FeedBodyRow = ({ date, desc, logo, type, classes }) => {
+const FeedBodyRow = ({ date, desc, logo, type, href, classes }) => {
   return (
     <article
       className={`flex py-4 hover:bg-white/10 backdrop-blur-md rounded-2xl ${classes}`}
@@ -39,7 +39,7 @@ const FeedBodyRow = ({ date, desc, logo, type, classes }) => {
       </div>
 
       <div className="w-20 lg:w-24 xl:w-32 pr-4 lg:pr-0 px-0 lg:px-4 xl:px-8 hidden md:flex justify-end lg:justify-start items-center prevent-select">
-        <Link href="#">
+        <Link href={href} target="_blank" referrerPolicy="no-referrer">
           <Image
             src="/home/dao-it/visit.svg"
             width={28}

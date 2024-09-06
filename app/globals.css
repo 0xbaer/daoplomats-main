@@ -153,3 +153,18 @@ body {
     animation: partner 20s linear infinite alternate;
   }
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .animate-scroll {
+    animation: scroll 5s linear infinite;
+  }
+}

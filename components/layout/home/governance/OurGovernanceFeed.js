@@ -23,8 +23,7 @@ export default function OurGovernanceFeed() {
         />
 
         <HomeSectionsHeading color="text-white">
-          Our <span className="text-primary">Governance </span>
-          Feed
+          Our <span className="text-primary">Contributions </span>
         </HomeSectionsHeading>
 
         <div className="border-2 border-primary rounded-2xl max-w-7xl mx-4 md:mx-6 lg:mx-8 xl:mx-auto overflow-hidden relative z-10">
@@ -37,18 +36,18 @@ export default function OurGovernanceFeed() {
 
         <div className="mx-8 space-y-6 md:space-x-4 relative z-10">
           <Link
-            href="#"
+            href="https://boardroom.io/voter/daoplomats.eth"
             className="btn-custom bg-primary text-black rounded-full hover:bg-white hover:text-black transition-colors shadow-sm shadow-primary py-2.5 block md:inline-block"
           >
             Delegate with us
           </Link>
 
-          <Link
+          {/* <Link
             href="#"
             className="btn-custom border border-white rounded-full hover:border-primary  hover:text-primary shadow-sm shadow-white transition-colors py-2.5 block md:inline-block"
           >
             View All Proposals
-          </Link>
+          </Link> */}
         </div>
       </div>
     </Suspense>

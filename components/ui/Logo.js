@@ -17,7 +17,7 @@ const Logo = ({
 
       <div className={`font-philosopher ${size}`}>
         <span className="text-primary">DAO</span>
-        <span className="text-secondary">PLOMATS</span>
+        <span className="text-secondary">plomats</span>
       </div>
     </div>
   );
