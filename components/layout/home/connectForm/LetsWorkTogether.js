@@ -2,14 +2,14 @@ import LetsWorkHeading from "./LetsWorkHeading";
 
 import Input from "@/components/ui/input/Input";
 import Textarea from "@/components/ui/input/Textarea";
-// import { sendMail } from "@/lib/Mail";
+import LetsWorkForm from "./LetsWorkForm";
 
 const LetsWorkTogether = () => {
   return (
     <div className="relative z-10 py-28 md:py-32 lg:py-40 xl:py-48 space-y-20 ">
       <LetsWorkHeading />
 
-      <form
+      {/* <form
         className="w-full sm:w-10/12 md:w-8/12 max-w-4xl sm:mx-auto space-y-6 px-8"
         aria-labelledby="lets-work-together-heading"
       >
@@ -62,7 +62,9 @@ const LetsWorkTogether = () => {
         >
           Send Message
         </button>
-      </form>
+      </form> */}
+
+      <LetsWorkForm />
     </div>
   );
 };
