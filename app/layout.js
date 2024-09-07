@@ -34,7 +34,6 @@ export const metadata = {
   description:
     "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
 
-  generator: "Next.js",
   applicationName: "DAOplomats",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -68,7 +67,7 @@ export const metadata = {
     siteName: "DAOplomats",
     images: [
       {
-        url: "https://www.yourwebsite.com/opengraph-image.jpg",
+        url: "https://www.daoplomats.org/banner.png",
         width: 1200,
         height: 630,
         alt: "DAOplomats Open Graph Image",
@@ -82,7 +81,7 @@ export const metadata = {
     title: "DAOplomats",
     description:
       "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
-    image: "https://www.yourwebsite.com/twitter-image.jpg",
+    image: "https://www.daoplomats.org/banner.png",
   },
 
   icons: {

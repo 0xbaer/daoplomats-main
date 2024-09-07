@@ -29,10 +29,10 @@ const SocialLinks = ({ socials }) => (
     {socials.map((social) => (
       <li
         key={social.name}
-        className="rounded-full px-3 py-1.5 2xl:px-4 text-sm shadow shadow-white/40 bg-transparent border border-white text-white hover:scale-105 active:scale-100 transition-all hover:border-primary hover:text-primary cursor-pointer prevent-select"
+        className="rounded-full text-sm shadow shadow-white/40 bg-transparent border cursor-pointer border-white text-white hover:scale-105 active:scale-100 transition-all hover:border-primary hover:text-primary prevent-select w-fit"
       >
         <Link
-          className=" capitalize"
+          className="capitalize px-3 py-1.5 2xl:px-4 inline-block"
           href={social.href}
           target="_blank"
           referrerPolicy="no-referrer"

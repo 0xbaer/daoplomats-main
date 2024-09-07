@@ -2,6 +2,7 @@ import LetsWorkHeading from "./LetsWorkHeading";
 
 import Input from "@/components/ui/input/Input";
 import Textarea from "@/components/ui/input/Textarea";
+// import { sendMail } from "@/lib/Mail";
 
 const LetsWorkTogether = () => {
   return (
@@ -55,7 +56,7 @@ const LetsWorkTogether = () => {
         />
 
         <button
-          type="submit"
+          type="button"
           aria-label="Send Message"
           className="btn-custom rounded-full text-black bg-primary w-full focus:ring-primary prevent-select border border-transparent hover:border-primary hover:bg-transparent hover:text-primary"
         >
