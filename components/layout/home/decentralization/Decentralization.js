@@ -16,7 +16,7 @@ const Decentralization = () => {
       />
 
       <HomeSectionsHeading
-        classNames="px-14 xl:px-20"
+        classNames="px-4 md:px-14 xl:px-20 break-words"
         color="text-white"
         id="dao-it-heading"
       >
@@ -26,7 +26,7 @@ const Decentralization = () => {
 
       <Delegates />
 
-      <div className="w-full 2xl:w-10/12 flex lg:flex-row flex-col justify-between mt-20 xl:mt-24 space-y-20 lg:space-y-0 px-14 xl:px-20">
+      <div className="w-full 2xl:w-10/12 flex lg:flex-row flex-col justify-between mt-20 xl:mt-24 space-y-20 lg:space-y-0 px-4 md:px-14 xl:px-20">
         <Partners />
 
         <VotingHistory />

@@ -19,6 +19,7 @@ export default function CenterContent() {
           <BorderButton
             href="https://boardroom.io/voter/daoplomats.eth"
             label="Delegate"
+            aria-label="Visit DAOplomats Boardroom"
           />
         </div>
       </div>

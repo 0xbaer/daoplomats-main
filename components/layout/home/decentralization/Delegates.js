@@ -5,11 +5,11 @@ import Image from "next/image";
 const Delegates = () => {
   return (
     <div className="relative z-10 mt-28 xl:mt-32 space-y-16">
-      <h3 className="text-primary text-4xl font-philosopher px-14 xl:px-20">
+      <h3 className="text-primary text-4xl font-philosopher px-4 md:px-14 xl:px-20">
         We are Delegates of:
       </h3>
 
-      <div className="space-y-16 xl:space-y-12 mx-auto w-full md:w-fit px-10 xl:px-20 overflow-x-hidden">
+      <div className="space-y-16 xl:space-y-12 mx-auto w-full md:w-fit px-4 md:px-10 xl:px-20 overflow-x-hidden">
         <div className="w-full overflow-x-hidden">
           <div className="flex items-center justify-start md:justify-center gap-12 xl:gap-16 whitespace-nowrap animate-scroll">
             <Image

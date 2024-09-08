@@ -1,30 +1,28 @@
 import Image from "next/image";
-import React, { Suspense } from "react";
+import React from "react";
 
 import LetsWorkTogether from "./LetsWorkTogether";
 
 const Form = () => {
   return (
-    <Suspense>
-      <section
-        id="contact"
-        className="relative"
-        aria-labelledby="contact-heading"
-      >
-        <Image
-          src="/home/header/bg-main.png"
-          layout="fill"
-          className="absolute top-0 left-0 z-0"
-          alt=""
-          style={{
-            objectFit: "cover",
-            objectPosition: "center",
-          }}
-        />
+    <section
+      id="contact"
+      className="relative"
+      aria-labelledby="contact-heading"
+    >
+      <Image
+        src="/home/header/bg-main.png"
+        layout="fill"
+        className="absolute top-0 left-0 z-0"
+        alt=""
+        style={{
+          objectFit: "cover",
+          objectPosition: "center",
+        }}
+      />
 
-        <LetsWorkTogether />
-      </section>
-    </Suspense>
+      <LetsWorkTogether />
+    </section>
   );
 };
 

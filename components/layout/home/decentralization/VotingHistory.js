@@ -9,8 +9,9 @@ const VotingHistory = () => {
       </p>
 
       <BorderButton
-        href="https://daoplomats.notion.site/25e8bf8f0be841e8826ac43b97589a3b?v=707b62670efd45dbb635a53b7d773ee5"
+        href="https://daoplomats.notion.site/Database-03940ef86fdc40c3a02df62665f59efd"
         label="Click Here"
+        aria-label="Visit DAOplomats Voting History on Notion"
       />
     </div>
   );

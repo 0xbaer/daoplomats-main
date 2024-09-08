@@ -46,12 +46,26 @@ export const metadata = {
     "Blockchain",
     "Web3",
     "Ethereum",
+    "Aave",
+    "ShutterDAO",
+    "Shutter Network",
+    "Governance",
+    "Governance Solutions",
+    "Governance Services",
+    "Decentralized Governance",
+    "Decentralized Governance Solutions",
+    "Decentralized Governance Services",
+    "Decentralized Governance Experts",
+    "Decentralized Governance Consultants",
+    "Decentralized Governance Advisors",
+    "Decentralized Governance Specialists",
+    "Decentralized Governance Strategists",
   ],
   authors: [{ name: "Gautam, Raj" }, { name: "Baer" }, { name: "Jenga Jojo" }],
   creator: "Gautam Raj",
   publisher: "Gautam Raj",
 
-  metadataBase: new URL("https://www.daoplomats.org"),
+  metadataBase: new URL("https://daoplomats-main-five.vercel.app"),
   alternates: {
     canonical: "/",
     languages: {
@@ -63,16 +77,8 @@ export const metadata = {
     title: "DAOplomats",
     description:
       "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
-    url: "https://www.daoplomats.org",
+    url: "https://daoplomats-main-five.vercel.app",
     siteName: "DAOplomats",
-    images: [
-      {
-        url: "https://www.daoplomats.org/banner.png",
-        width: 1200,
-        height: 630,
-        alt: "DAOplomats Open Graph Image",
-      },
-    ],
     type: "website",
   },
 
@@ -81,7 +87,6 @@ export const metadata = {
     title: "DAOplomats",
     description:
       "Expert team providing customized solutions for decentralized governance. We prioritize objective decision-making, decentralization, positive-sum interactions, and representing everyday users in the DAO ecosystem.",
-    image: "https://www.daoplomats.org/banner.png",
   },
 
   icons: {
