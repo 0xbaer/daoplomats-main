@@ -22,8 +22,8 @@ export async function POST(req) {
     });
 
     const mailOptions = {
-      from: '"DAOplomats" <info@daoplomats.org>',
-      to: "baer@daoplomats.org",
+      from: '"DAOplomats" <ops@daoplomats.org>',
+      to: "ops@daoplomats.org",
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; color: #FCFBEB; padding: 20px; max-width: 600px; margin: 0 auto; background-color: #242424; border: 1px solid #333333; border-radius: 8px;">

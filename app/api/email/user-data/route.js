@@ -76,7 +76,7 @@ export async function POST(req) {
     `;
 
     const mailOptions = {
-      from: '"DAOplomats" <info@daoplomats.org>',
+      from: '"DAOplomats" <ops@daoplomats.org>',
       to: email,
       subject: `Thank You for Your Submission, ${name}!`,
       html: userEmailHtml,
